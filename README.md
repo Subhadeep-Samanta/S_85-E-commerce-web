@@ -45,7 +45,7 @@ This milestone includes the following steps:
 2. Create the User Controller
    - Implement functions to handle user-related actions such as registering a user and retrieving user data.
 
-3. Set Up Multer for File Uploads
+3. Set Up Multer for the File Uploads
    - Configure Multer to allow users to upload files.
    - Store uploaded files in a designated folder.
    
