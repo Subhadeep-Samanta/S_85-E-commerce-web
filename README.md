@@ -3,7 +3,7 @@ In this milestone, I implemented user authentication with password encryption an
 
 
 Features Implemented
-1.  Encrypt the Password
+1. Encrypt the Password
 Used bcrypt to hash the user's password during the signup process.
 Ensured that the hashed password is saved in the database instead of storing the plain text password.
 2.  Store Complete User Data
