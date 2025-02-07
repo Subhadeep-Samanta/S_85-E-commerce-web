@@ -1,6 +1,7 @@
 Milestone 6 - User Authentication & Encryption
 In this milestone, I implemented user authentication with password encryption and saved complete user data in the database.
 
+
 Features Implemented
 1. Encrypt the Password
 Used bcrypt to hash the user's password during the signup process.
