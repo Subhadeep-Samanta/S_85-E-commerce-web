@@ -1,10 +1,9 @@
-Milestone 12: My Products Page 🚀
-✅ Filtering Products by User Email
-Created a backend endpoint to retrieve products associated with the logged-in user's email.
-Queried the MongoDB database to fetch only those products matching the user's email.
-✅ Fetching Data on the Frontend
-Implemented an API call to request user-specific product data from the backend.
-Stored the retrieved data in the application state for dynamic rendering.
-✅ Displaying User's Products
-Passed the fetched data to the Product Card component.
-Rendered the products dynamically on the "My Products" page.
+Milestone 13: Product Update Feature 🚀
+✅ Overview
+Implemented the ability to update product details using the product ID. Users can modify product name, price, and image.
+
+✅ Key Features
+Edit Product Details: Users can update product information. Update by Product ID: Changes are applied based on the product’s unique identifier. Real-Time Data Fetching: Updated details are reflected instantly.
+
+✅ Implementation
+Created a PUT API endpoint to update product details in MongoDB. Designed an edit form in the frontend with pre-filled data. Ensured dynamic updates by fetching the latest product data.
