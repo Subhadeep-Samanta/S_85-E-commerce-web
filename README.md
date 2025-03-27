@@ -1,10 +1,13 @@
-Milestone 22: Address API Integration 🌐
-✅ Backend Endpoint Implementation
+Milestone 23: Address Selection for Orders 🛒
+✅ Cart Page Enhancement
 
-Created an API endpoint to receive the address from the frontend.
-Validated and stored the address in the address array inside the user collection.
-✅ Database Integration
+Added a "Place Order" button inside the cart page.
+Navigated to the "Select Address" page when clicked.
+✅ Address Selection Page
 
-Updated the user schema to ensure multiple addresses can be stored.
-Implemented authentication and error handling for secure address updates.
-Now, users can add their address, and it will be stored successfully! 🚀
+Displayed all available addresses of the user.
+Provided an option to select one address for the order.
+✅ Backend API Implementation
+
+Created an endpoint to fetch and send all saved addresses of the user.
+Ensured authentication and proper error handling.
