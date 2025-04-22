@@ -1,9 +1,27 @@
-Milestone 31: JWT Auth & Member CRUD 🔐
-✅ JWT Authentication
+# 🚀 Milestone 32 – Global State with Redux
 
-Implemented secure login and signup using JWT tokens.
-Stored token in localStorage and protected member routes with auth middleware.
-✅ Member CRUD + UI Enhancements
+Hey Kalvians! 👋  
+Welcome to **Milestone 32**! 🌟
 
-Added full Create, Read, Update, Delete features for gym members.
-Enhanced UI with field icons, top banner, and improved layout for better experience.
+In this milestone, you'll learn how to store and access the user's **email** using **Redux**, making it available across all pages of your application.
+
+---
+
+## 🎯 Learning Goals
+
+By the end of this milestone, you will be able to:
+
+- Use **Redux** to manage global state.
+- Store the user's email in the global state on login.
+- Access the stored email across multiple components/pages using `useSelector`.
+
+---
+
+## 📝 Steps to Follow
+
+### 🔹 1. Set Up Redux (if not already done)
+
+Ensure you have the Redux setup ready with the following packages installed:
+
+```bash
+npm install @reduxjs/toolkit react-redux
