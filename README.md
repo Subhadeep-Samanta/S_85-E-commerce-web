@@ -1,27 +1,25 @@
-# 🚀 Milestone 32 – Global State with Redux
+🌟 Milestone 33 – Creating & Storing JWT Token in a Cookie
+Welcome to Milestone 33!
 
-Hey Kalvians! 👋  
-Welcome to **Milestone 32**! 🌟
+Today, we will learn how to create a JWT (JSON Web Token) and store it inside a cookie to be used in the browser.
 
-In this milestone, you'll learn how to store and access the user's **email** using **Redux**, making it available across all pages of your application.
+🎯 Learning Goals
+By the end of this milestone, you will:
 
----
+Understand how to create a JWT token.
 
-## 🎯 Learning Goals
+Learn how to store JWT tokens securely inside browser cookies.
 
-By the end of this milestone, you will be able to:
+Set expiration time for tokens using maxAge.
 
-- Use **Redux** to manage global state.
-- Store the user's email in the global state on login.
-- Access the stored email across multiple components/pages using `useSelector`.
+📝 Steps for Milestone 33
+Download the jsonwebtoken package using NPM to handle JWT operations.
 
----
+Use the sign method to create a JWT token with email and ID as the payload.
 
-## 📝 Steps to Follow
+Set the maxAge to define the expiration time for the token.
 
-### 🔹 1. Set Up Redux (if not already done)
+Add the cookie inside the response, which allows storing the JWT in the browser.
 
-Ensure you have the Redux setup ready with the following packages installed:
-
-```bash
-npm install @reduxjs/toolkit react-redux
+📚 Summary
+In this milestone, you learned the basics of generating a JWT token and storing it securely in a browser cookie. This process is essential for implementing authentication in web applications.
