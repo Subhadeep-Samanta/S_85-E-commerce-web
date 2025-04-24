@@ -1,25 +1,17 @@
-🌟 Milestone 33 – Creating & Storing JWT Token in a Cookie
-Welcome to Milestone 33!
+Milestone 34: Validating JWT Token from Cookie 🔐
+✅ Extracting JWT from Cookie
 
-Today, we will learn how to create a JWT (JSON Web Token) and store it inside a cookie to be used in the browser.
+Retrieved the JWT token from the browser’s cookie storage.
+Sent the token to the backend with each request.
+✅ JWT Token Validation
 
-🎯 Learning Goals
-By the end of this milestone, you will:
+Created a middleware in the backend to validate the incoming JWT token.
+Used verify() method from jsonwebtoken to decode and verify token authenticity.
+✅ Route Protection
 
-Understand how to create a JWT token.
+Applied the JWT validation middleware to secure routes.
+Ensured only authenticated users can access protected pages.
+✅ Benefits
 
-Learn how to store JWT tokens securely inside browser cookies.
-
-Set expiration time for tokens using maxAge.
-
-📝 Steps for Milestone 33
-Download the jsonwebtoken package using NPM to handle JWT operations.
-
-Use the sign method to create a JWT token with email and ID as the payload.
-
-Set the maxAge to define the expiration time for the token.
-
-Add the cookie inside the response, which allows storing the JWT in the browser.
-
-📚 Summary
-In this milestone, you learned the basics of generating a JWT token and storing it securely in a browser cookie. This process is essential for implementing authentication in web applications.
+Enhances app security by verifying token on every request.
+Prevents unauthorized access to sensitive routes and pages.
